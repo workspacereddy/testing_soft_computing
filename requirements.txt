@@ -2,8 +2,6 @@ streamlit
 nltk
 ntscraper
 scikit-learn
-re
-fastapi
 uvicorn
 datasets
 pandas
