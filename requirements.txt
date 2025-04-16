@@ -4,3 +4,7 @@ ntscraper
 scikit-learn
 pickle
 re
+fastapi
+uvicorn
+datasets
+pandas
