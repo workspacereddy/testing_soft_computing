@@ -10,6 +10,8 @@ import requests
 import json
 from ntscraper import Nitter
 import time
+import warnings
+
 
 # Set page configuration
 st.set_page_config(
@@ -422,6 +424,9 @@ def display_batch_results(results):
     
     for i, result in enumerate(filtered_results):
         create_sentiment_card(result["text"], result["sentiment"], i+1)
+
+warnings.filterwarnings("ignore", category=UserWarning, module='sklearn')
+
 
 if __name__ == "__main__":
     main()
