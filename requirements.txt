@@ -1,7 +1,7 @@
 streamlit
 nltk
-ntscraper
 scikit-learn
-uvicorn
-datasets
 pandas
+numpy
+requests
+ntscraper
