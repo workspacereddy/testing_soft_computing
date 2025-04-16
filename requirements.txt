@@ -1,0 +1,6 @@
+streamlit
+nltk
+ntscraper
+scikit-learn
+pickle
+re
