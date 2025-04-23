@@ -114,7 +114,6 @@ def fetch_tweets(username, count=5, max_retries=3):
                     continue  # Try next instance
                     
         except Exception as e:
-            st.warning(f"Attempt {attempt+1}: {str(e)}")
             time.sleep(1)  # Wait between retries
     
     # Fallback option: Generate mock tweets for demo purposes
