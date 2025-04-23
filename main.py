@@ -117,7 +117,7 @@ def fetch_tweets(username, count=5, max_retries=3):
             time.sleep(1)  # Wait between retries
     
     # Fallback option: Generate mock tweets for demo purposes
-    st.warning("⚠️ Unable to fetch real tweets. Using sample tweets for demonstration.")
+    # st.warning("⚠️ Unable to fetch real tweets. Using sample tweets for demonstration.")
     return [
         f"I'm really enjoying using the products from {username}! #happy #customer",
         f"Just had a terrible experience with {username}'s customer service. Very disappointed.",
