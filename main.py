@@ -81,7 +81,7 @@ def fetch_tweets(username, count=5, max_retries=3):
     for attempt in range(max_retries):
         try:
             # Create scraper with specific instance to avoid random selection
-            scraper = Nitter()  # Use a specific instance instead of random
+            scraper = Nitter(instance="https://nitter.net")  # Use a specific instance instead of random
             
             try:
                 # Try the newer API format first
